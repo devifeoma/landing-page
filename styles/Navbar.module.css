@@ -1,0 +1,83 @@
+.navbar {
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   /* margin: 0 155px 0 155px; */
+   padding: 30px 155px 30px 155px;
+   background-color: #fff;
+   color: #4B5D68;
+   background-color: none;
+   }
+
+   .navLinks a {
+    color: #4B5D68;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+   }
+
+   .logo {
+    font-size: 32px;
+   }
+
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+/* 
+   .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   } */
+
+   .menu li {
+    padding: 5px 14px;
+   }
+
+
+   @media (max-width: 600px) {
+      .navbar {
+         position: fixed;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         width: 100%;
+         /* margin: 0 155px 0 155px; */
+         /* padding: 30px 155px 30px 155px; */
+         background-color: #fff;
+         color: #4B5D68;
+         background-color: none;
+         border: 1px solid red;
+      }
+      
+    .menu { 
+     display:none;
+     position: absolute;
+     background-color:teal;
+     right: 0;
+     left: 0;
+     text-align: center;
+     padding: 16px 0;
+    }
+    .menu li:hover {
+     display: inline-block;
+     background-color:#4c9e9e;
+     transition: 0.3s ease;
+    }
+    .menu li + li {
+     margin-top: 12px;
+    }
+    input[type=checkbox]:checked ~ .menu{
+     display: block;
+    }
+    .hamburger {
+     display: block;
+    }
+ 
+    }

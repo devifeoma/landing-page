@@ -1,0 +1,116 @@
+  .footer{
+    /* position: fixed; */
+    padding-top: 80px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .footerMain {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 155px 0 155px;
+    color: #808080;
+    line-height: 1.5;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #808080;
+  }
+
+  /* a:hover {
+    text-decoration: underline;
+  } */
+
+  .footerTitle {
+    color: #1B347A;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 0.625rem;
+  }
+
+  .footerLegal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 155px 0 155px;
+    padding: 40px 0 100px 0;
+    background-color: #fff;
+    color: #4B5D68;
+  }
+
+  .footerBottomLink{
+    color: #4B5D68;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+  }
+  
+  .menu {
+    display: flex;
+    /* padding: 0 1.25rem 0 1.25rem; */
+    gap: 1em;
+    font-size: 18px;
+   }
+
+   .footerText {
+    width: 67%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+   }
+
+  /* .footerMainItem {
+    padding: 0 1.25rem 0 1.25rem;
+    min-width: 12.5rem;
+  } */
+
+ 
+
+  
+  /* Footer main | Newsletter form */
+  /* form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+  }
+  input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+  } */
+
+  /* Footer social */
+  /* .ftSocial {
+    padding: 0 1.875rem 1.25rem;
+  }
+  .footerSocialList {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+  }
+  .footerSocialList li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+  } */
+
+
+ 
